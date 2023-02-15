@@ -23,6 +23,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1.1em 0 1em 0;
+  position: fixed;
 }
 
 .name-logo-div {
