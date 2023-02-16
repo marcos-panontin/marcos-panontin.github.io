@@ -1,3 +1,187 @@
-.marcos-picture {
-    width: 15em;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #184c6d;
+  color: #fefefe;
+  display: flex;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: font-family: 'Roboto', sans-serif;
+font-family: 'Share Tech Mono', monospace;;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  min-width: 200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* NAVIBAR */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1em 0 1em 0;
+  position: fixed;
+  background-color: #184c6d;
+  width: 90%;
+  z-index: 3;
+}
+
+.name-logo-div {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* .menu-items-div {
+  display: none;
+} */
+
+/* HERO */
+
+.hero {
+  margin-top: 5em;
+}
+
+.main-header-text {
+  font-size: 2.2rem;
+  margin-bottom: 0.3em;
+}
+
+.minor-header-text {
+  font-size: 1.125rem;
+  color: rgb(201, 201, 201);
+  font-weight: 400;
+}
+
+.highlighted-text {
+  color: #da9559;
+}
+
+.contact-me-btn-container {
+  text-align: left;
+    margin-top: 1em;
+
+}
+
+.contact-me-btn {
+  background-color: #133d57;
+  color: #fefefe;
+  border: 1px solid #da9559;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* MAIN IMAGE DIV */
+
+.main-img-div {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.main-img {
+  max-width: 90%;
+  padding: 0;
+}
+
+.currently-text {
+  background-color: #133d57;
+  border: solid 1px #da9559;
+  padding: 0.5em;
+  width: 40%;
+  margin-top: -6em;
+  z-index: 2;
+  position: relative;
+  float:right
+}
+
+.trybe-link {
+  color: rgb(2, 216, 2);
+  cursor: pointer;
+}
+
+/* SECTIONS */
+
+.margin-bottom-padding-top {
+  margin-bottom: 3em;
+  padding-top: 3em;
+}
+
+.projects,
+.skills,
+.about-me,
+.contacts {
+  border-width: 0px;
+  border-top-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #da9559, #753f10) 1;
+}
+
+
+.projects h2, .skills h2, .about-me h2 {
+  color: #da9559;
+  margin-bottom: 1.5em;
+}
+
+
+.projects article, .skills article {
+  margin-bottom: .75em;
+}
+
+/* about me */
+
+.about-me-img {
+  width: 80%;
+  max-width: 200px;
+}
+
+/* contact me */
+
+footer {
+  text-align: center;
+  padding: 3em 0;
+}
+
+/* COMO ME ENCONTRAR */
+
+.como-me-encontrar {
+  margin: 1em 0;
+  justify-content: center;
+}
+
+.contact-icons-div {
+  text-align: center;
+}
+
+
+
+.fa-linkedin,
+.fa-github,
+.fa-envelope {
+  font-size: 2rem;
+  margin: .5em;
+  color: #fefefe;
+  text-decoration: none
+}
+
+.footer a {
+  color: #fefefe;
+}
+
+/* COPYRIGHT */
+
+.copyright-paragraph {
+  font-size: 0.6rem;
+  margin: 3em 0 1em 0;
 }
