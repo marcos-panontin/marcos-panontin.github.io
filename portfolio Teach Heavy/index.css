@@ -40,6 +40,13 @@ nav {
 }
 
 
+
+/* HERO */
+
+.hero {
+  margin-top: 5em;
+}
+
 .main-header-text {
   font-size: 2.2rem;
 }
@@ -54,8 +61,39 @@ nav {
   color: #fb8500;
 }
 
+.main-img-div {
+  text-align: center;
+}
+
 .main-img {
-  max-width: 100%;
+  max-width: 90%;
   margin-top: 0;
   padding: 0;
+}
+
+
+
+
+.currently-text {
+  border: solid 1px  rgb(201, 201, 201);
+  padding: 0.5em;
+}
+
+
+
+/* SECTIONS */
+
+section {
+  margin: 3em 0;
+}
+
+
+/* contact me */
+
+.fa-linkedin, .fa-github, .fa-envelope {
+  font-size: 2rem;
+}
+
+.contacts a {
+  color: white;
 }
