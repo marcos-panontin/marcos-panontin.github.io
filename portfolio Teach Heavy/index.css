@@ -82,6 +82,8 @@ nav {
 
 .main-img-div {
   text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .main-img {
@@ -94,7 +96,7 @@ nav {
   border: solid 1px #da9559;
   padding: 0.5em;
   width: 40%;
-  margin-top: -5em;
+  margin-top: -6em;
   z-index: 2;
   position: relative;
 }
@@ -106,15 +108,21 @@ nav {
 
 /* SECTIONS */
 
-section {
+.margin-bottom-padding-top {
   margin-bottom: 3em;
   padding-top: 3em;
 
 }
 
-.skills, .about-me {
-  border-top: 1px solid #da9559;
-
+.projects, .skills, .about-me, .contacts {
+  border-width: 0px;
+  border-top-width: 1px;
+  border-style: solid;
+  border-image: 
+    linear-gradient( to right,
+      #DA9559, 
+      #753f10
+    ) 1;
 }
 
 
@@ -129,16 +137,41 @@ section {
 
 .contacts {
   text-align: center;
-  border-top: 1px solid #da9559;
   padding: 3em 0;
+}
+
+
+
+/* COMO ME ENCONTRAR */
+
+.como-me-encontrar {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.contact-icons-div {
+  width: 150px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-around;
 }
 
 .fa-linkedin,
 .fa-github,
 .fa-envelope {
   font-size: 2rem;
+  border: solid 1px yellow;
 }
+
 
 .contacts a {
   color: #fefefe;
+}
+
+
+/* COPYRIGHT */
+
+.copyright-paragraph {
+  font-size: .6rem;
+  margin: 3em 0 1em 0;
 }
