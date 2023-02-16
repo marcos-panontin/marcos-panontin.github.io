@@ -111,20 +111,17 @@ nav {
 .margin-bottom-padding-top {
   margin-bottom: 3em;
   padding-top: 3em;
-
 }
 
-.projects, .skills, .about-me, .contacts {
+.projects,
+.skills,
+.about-me,
+.contacts {
   border-width: 0px;
   border-top-width: 1px;
   border-style: solid;
-  border-image: 
-    linear-gradient( to right,
-      #DA9559, 
-      #753f10
-    ) 1;
+  border-image: linear-gradient(to right, #da9559, #753f10) 1;
 }
-
 
 /* about me */
 
@@ -139,8 +136,6 @@ nav {
   text-align: center;
   padding: 3em 0;
 }
-
-
 
 /* COMO ME ENCONTRAR */
 
@@ -163,15 +158,13 @@ nav {
   border: solid 1px yellow;
 }
 
-
 .contacts a {
   color: #fefefe;
 }
 
-
 /* COPYRIGHT */
 
 .copyright-paragraph {
-  font-size: .6rem;
+  font-size: 0.6rem;
   margin: 3em 0 1em 0;
 }
