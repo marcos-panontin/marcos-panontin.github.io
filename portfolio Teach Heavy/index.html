@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CDN -->
-
+    <!-- Google FOnts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     />
     <!-- CSS -->
     <link rel="stylesheet" href="index.css" />
@@ -29,11 +30,11 @@
       <nav>
         <div class="name-logo-div">marcosPanontin</div>
         <i class="fa-solid fa-bars"></i>
-        <div class="menu-items-div hidden">
+        <!-- <div class="menu-items-div hidden">
           <p>#home</p>
           <p>#projetos</p>
           <p>#sobre mim</p>
-        </div>
+        </div> -->
       </nav>
       <div class="hero">
         <section class="text-header-div">
@@ -43,21 +44,32 @@
           </h1>
           <h2 class="minor-header-text">
             Ele desenvolve aplicações Web aliando
-            <span class="highlighted-text">tecnologia e criatividade</span>
+            <span class="highlighted-text">tecnologia</span> e <span class ="highlighted-text">criatividade</span>.
           </h2>
 
-          <button>Entre em contato</button>
+              <div class="contact-me-btn-container">
+                <a href="#contacts" class="contact-me-btn">Entre em contato ##</a>
+              </div>
         </section>
 
         <section class="main-img-div">
-          <img src="images/marcos.png" class="main-img" alt="Marcos Panontin smiling at the camera."/>
-          <p class="currently-text">
-            Atualmente estudando Desenvolvimento Web
-          </p>
+          <img
+            src="images/no-background-drawing3.png"
+            class="main-img"
+            alt="A drawing of Marcos Panontin."/>
+
+      <div class="currently-text">
+
+            <p>Atualmente estudando Desenvolvimento Web na 
+              <a class="trybe-link" href="https://app.betrybe.com/" target="_blank">Trybe</a>
+            </p>
+
+        </div>
+
         </section>
 
         <section class="projects">
-          <h2>#projects</h2>
+          <h2>#projetos</h2>
           <article class="project">
             <p>Projeto1</p>
             <p>HTML CSS Javascript</p>
@@ -66,17 +78,15 @@
           <article class="project">
             <p>Projeto2</p>
             <p>HTML CSS Javascript</p>
-
           </article>
         </section>
 
         <section class="skills">
-          <h2>#skills</h2>
+          <h2>#habilidades</h2>
 
           <div class="languages-div">
             <h3>Linguagens</h3>
             <p>Javascript</p>
-
           </div>
           <div class="databases-div"></div>
           <h3>Banco de dados</h3>
@@ -87,27 +97,35 @@
           <div class="soft-skills-div"></div>
           <h3>Soft Skills</h3>
           <p>Comunicação Team Player</p>
-
         </section>
 
-        <section class="about-me"></section>
+        <section class="about-me">
         <h2>Quem sou eu</h2>
-        <p>Após trabalhar por 10 anos com Educação, decidi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos temporibus hic debitis officiis eligendi accusamus?
-        </p>
 
-        <section class="contacts">
+        <p>
+          Formado em Linguística pela Universidade de São Paulo (USP). Após
+          trabalhar por 10 anos com Educação, decidi Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Eos temporibus hic debitis officiis
+          eligendi accusamus?
+        </p>
+</section>
+
+        <footer id="contacts"" class="contacts">
           <p>amarcospanontin@gmail.com</p>
           <p>Web Developer brasileiro</p>
           <h3>Como me encontrar</h3>
-          <a href="https://github.com/marcos-panontin" target="_blank"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/marcos-panontin/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/marcos-panontin" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/marcos-panontin/" target="_blank"
+            >
+            <a href="mailto:amarcospanontin@gmail.com"><i class="fa-brands fa-linkedin"></i
+          ></a>
           <a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a>
 
+          <p class="copyright-paragraph">© Copyright 2023. Criado por Marcos Panontin</p>
+            </footer>
 
-
-        </section>
-
-        <footer></footer>
       </div>
     </container>
   </body>

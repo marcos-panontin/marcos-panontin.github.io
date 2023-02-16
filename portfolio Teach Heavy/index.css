@@ -4,15 +4,16 @@
 }
 
 body {
-  background-color: #023047;
-  color: whitesmoke;
+  background-color: #184c6d;
+  color: #fefefe;
   display: flex;
-  font-family: "Fira Code", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
 .container {
   max-width: 900px;
+  min-width: 200px;
   width: 90%;
   margin: 0 auto;
 }
@@ -24,22 +25,23 @@ nav {
   justify-content: space-between;
   padding: 1.1em 0 1em 0;
   position: fixed;
+  background-color: #184c6d;
+  width: 90%;
 }
 
 .name-logo-div {
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .fa-bars {
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
-.menu-items-div {
-  /* display: flex; */
+/* .menu-items-div {
   display: none;
-}
-
-
+} */
 
 /* HERO */
 
@@ -49,17 +51,34 @@ nav {
 
 .main-header-text {
   font-size: 2.2rem;
+  margin-bottom: 0.3em;
 }
 
 .minor-header-text {
   font-size: 1.125rem;
   color: rgb(201, 201, 201);
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 .highlighted-text {
-  color: #fb8500;
+  color: #da9559;
 }
+
+.contact-me-btn-container {
+  text-align: right;
+}
+
+.contact-me-btn {
+  background-color: #133d57;
+  color: #fefefe;
+  border: 1px solid #da9559;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* MAIN IMAGE DIV */
 
 .main-img-div {
   text-align: center;
@@ -67,33 +86,59 @@ nav {
 
 .main-img {
   max-width: 90%;
-  margin-top: 0;
   padding: 0;
 }
 
-
-
-
 .currently-text {
-  border: solid 1px  rgb(201, 201, 201);
+  background-color: #133d57;
+  border: solid 1px #da9559;
   padding: 0.5em;
+  width: 40%;
+  margin-top: -5em;
+  z-index: 2;
+  position: relative;
 }
 
-
+.trybe-link {
+  color: rgb(2, 216, 2);
+  cursor: pointer;
+}
 
 /* SECTIONS */
 
 section {
-  margin: 3em 0;
+  margin-bottom: 3em;
+  padding-top: 3em;
+
+}
+
+.skills, .about-me {
+  border-top: 1px solid #da9559;
+
 }
 
 
+/* about me */
+
+.about-me-img {
+  width: 80%;
+  max-width: 200px;
+}
+
 /* contact me */
 
-.fa-linkedin, .fa-github, .fa-envelope {
+.contacts {
+  text-align: center;
+  border-top: 1px solid #da9559;
+  padding: 3em 0;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-envelope {
   font-size: 2rem;
 }
 
 .contacts a {
-  color: white;
+  color: #fefefe;
 }
