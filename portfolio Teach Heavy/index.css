@@ -7,7 +7,9 @@ body {
   background-color: #184c6d;
   color: #fefefe;
   display: flex;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: font-family: 'Roboto', sans-serif;
+font-family: 'Share Tech Mono', monospace;;
   margin: 0;
 }
 
@@ -27,6 +29,7 @@ nav {
   position: fixed;
   background-color: #184c6d;
   width: 90%;
+  z-index: 3;
 }
 
 .name-logo-div {
@@ -123,6 +126,21 @@ nav {
   border-image: linear-gradient(to right, #da9559, #753f10) 1;
 }
 
+
+.projects h2, .skills h2, .about-me h2 {
+  color: #da9559;
+  margin-bottom: 1.5em;
+}
+
+
+
+/* SKILLS */
+
+
+.skills article {
+  margin-bottom: .75em;
+}
+
 /* about me */
 
 .about-me-img {
@@ -132,7 +150,7 @@ nav {
 
 /* contact me */
 
-.contacts {
+footer {
   text-align: center;
   padding: 3em 0;
 }
@@ -141,24 +159,24 @@ nav {
 
 .como-me-encontrar {
   margin: 1em 0;
-  text-align: center;
+  justify-content: center;
 }
 
 .contact-icons-div {
-  width: 150px;
-  border: solid 1px black;
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
 }
+
+
 
 .fa-linkedin,
 .fa-github,
 .fa-envelope {
   font-size: 2rem;
-  border: solid 1px yellow;
+  margin: .5em;
+  color: #fefefe;
 }
 
-.contacts a {
+.footer a {
   color: #fefefe;
 }
 
