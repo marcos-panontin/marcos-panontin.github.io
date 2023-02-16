@@ -1,52 +1,180 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css" />
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <nav>
-            <div><p>Marcos Panontin</p></div>
-            <ul>
-                <li><a>Sobre</a></li>
-                <li><a>Habilidades</a></li>
-                <li><a>Contato</a></li>
-        </nav>
+    <!-- Google FOnts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-        <header>
+    <!-- Google Fonts - Font Tech -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
 
-            <img class="marcos-picture" src="Antônio Marcos Panontin (2).JPG">
-            
-        </header>
-        <div>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-            <div id="who-am-i">
-                <h3>Marcos Panontin</h3>
-                <p>Former Educator, currently on a career transition into <strong>Technology</strong>.</p>
-                <p><em>Web Development </em>Student</p>
-                <h4>São Paulo, Brazil</h4>
+    <title>Marcos Panontin - Web Developer</title>
+  </head>
 
-            </div>
-            <div id="habilidades-div">
-                <h3>Hard & Soft Skills</h3>
-                <ul>
-                    <li><strong>Creativity</strong></li>
-                    <li>Dedication</li>
-                    <li>Analytical Thinking</li>
-                    <li>Passion for tech</li>
-                    <li>Comunication</li>
-                </ul>
-            </div>
-
-            <div>
-                <p>Wanna learn to code as well? <a href="https://scrimba.com/" target="_blank">Check Scrimba!</a></p>
-            </div>
-
-            <div id="navigation">
-                <ul>
-                    <li><a href="#who-am-i">Who am I</a></li>
-                    <li><a href="#habilidades-div">My Skills</a></li>
-                </ul>
-            </div>
+  <body>
+    <container class="container">
+      <nav>
+        <div class="name-logo-div">
+          <p>marcosPanontin</p>
         </div>
-    </body>
+
+        <i class="fa-solid fa-bars"></i>
+
+        <!-- <div class="menu-items-div hidden">
+          <p>#home</p>
+          <p>#projetos</p>
+          <p>#sobre mim</p>
+        </div> -->
+      </nav>
+
+      <div class="hero">
+        <section class="text-header-div">
+          <h1 class="main-header-text">
+            Marcos Panontin é um
+            <span class="highlighted-text">Web Developer</span>
+          </h1>
+
+          <h2 class="minor-header-text">
+            Ele desenvolve aplicações Web aliando
+            <span class="highlighted-text">tecnologia</span> e
+            <span class="highlighted-text">criatividade</span>.
+          </h2>
+        </section>
+
+        <div class="contact-me-btn-container">
+          <a href="#contacts" class="contact-me-btn">Entre em contato ##</a>
+        </div>
+
+        <section class="main-img-div">
+          <img
+            src="images/no-background-drawing3.png"
+            class="main-img"
+            alt="A drawing of Marcos Panontin."
+          />
+
+          <div class="currently-text">
+            <p>
+              Atualmente estudando Desenvolvimento Web na
+              <a
+                class="trybe-link"
+                href="https://www.betrybe.com/?utm_term=be%20trybe&utm_campaign=*%5BSearch%5D+Brand_BRA&utm_source=adwords&utm_medium=ppc&hsa_acc=1466424558&hsa_cam=12085736593&hsa_grp=146119280611&hsa_ad=617838452283&hsa_src=g&hsa_tgt=kwd-922670217043&hsa_kw=be%20trybe&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=EAIaIQobChMI4qGMsO2a_QIV6ClMCh3FNAGwEAAYASAAEgK06_D_BwE"
+                target="_blank"
+                >Trybe</a
+              >
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <section class="projects margin-bottom-padding-top">
+        <h2>#projetos</h2>
+
+        <article class="project">
+          <h3>.Projeto1</h3>
+          <p>HTML CSS Javascript</p>
+        </article>
+
+        <article class="project">
+          <h3>.Projeto2</h3>
+          <p>HTML CSS Javascript</p>
+        </article>
+      </section>
+
+      <section class="skills margin-bottom-padding-top">
+        <h2>#habilidades</h2>
+
+        <article class="languages-div">
+          <h3>.Linguagens</h3>
+          <p>Javascript</p>
+        </article>
+
+        <article class="databases-div">
+          <h3>.Banco de dados</h3>
+          <p>Lorem Ipsum</p>
+        </article>
+
+        <article class="other-div">
+          <h3>.Outros</h3>
+          <p>HTML CSS</p>
+        </article>
+
+        <article class="soft-skills-div">
+          <h3>.Soft Skills</h3>
+          <p>Comunicação / Escuta ativa / Team Player</p>
+        </article>
+
+        <article class="idiomas-div">
+          <h3>.Idiomas</h3>
+          <p>Português / Inglês / Italiano</p>
+        </article>
+      </section>
+
+      <section class="about-me margin-bottom-padding-top">
+        <h2>#quem sou eu</h2>
+
+        <p>
+          Formado em Linguística pela Universidade de São Paulo (USP). Após
+          trabalhar por 10 anos com Educação, decidi Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Eos temporibus hic debitis officiis
+          eligendi accusamus?
+        </p>
+      </section>
+
+      <footer id="contacts">
+        <p>amarcospanontin@gmail.com</p>
+        <p>Web Developer brasileiro</p>
+
+        <div class="como-me-encontrar">
+          <h3>Como me encontrar</h3>
+
+          <div class="contact-icons-div">
+            <a href="https://github.com/marcos-panontin" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/marcos-panontin/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a target="_blank">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <p class="copyright-paragraph">
+            © Copyright 2023. Criado por Marcos Panontin
+          </p>
+        </div>
+      </footer>
+    </container>
+  </body>
 </html>

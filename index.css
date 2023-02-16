@@ -68,7 +68,9 @@ nav {
 }
 
 .contact-me-btn-container {
-  text-align: right;
+  text-align: left;
+    margin-top: 1em;
+
 }
 
 .contact-me-btn {
@@ -76,7 +78,6 @@ nav {
   color: #fefefe;
   border: 1px solid #da9559;
   padding: 0.5em 1em;
-  margin-top: 1em;
   cursor: pointer;
   text-decoration: none;
 }
@@ -102,6 +103,7 @@ nav {
   margin-top: -6em;
   z-index: 2;
   position: relative;
+  float:right
 }
 
 .trybe-link {
@@ -133,11 +135,7 @@ nav {
 }
 
 
-
-/* SKILLS */
-
-
-.skills article {
+.projects article, .skills article {
   margin-bottom: .75em;
 }
 
@@ -174,6 +172,7 @@ footer {
   font-size: 2rem;
   margin: .5em;
   color: #fefefe;
+  text-decoration: none
 }
 
 .footer a {
