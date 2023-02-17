@@ -30,6 +30,13 @@ nav {
   background-color: #184c6d;
   width: 90%;
   z-index: 3;
+
+  /* Nav border bottom */
+    /* Nav bottom border */
+  border-width: 0px;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #da9559, #753f10) 1;
 }
 
 .name-logo-div {
@@ -151,6 +158,13 @@ nav {
 footer {
   text-align: center;
   padding: 3em 0;
+
+  /* footer border */
+
+  border-width: 0px;
+  border-top-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #da9559, #753f10) 1;
 }
 
 /* COMO ME ENCONTRAR */
@@ -177,6 +191,12 @@ footer {
 
 .footer a {
   color: #fefefe;
+
+    /* Nav bottom border */
+  border-width: 0px;
+  border-top-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #da9559, #753f10) 1;
 }
 
 /* COPYRIGHT */
