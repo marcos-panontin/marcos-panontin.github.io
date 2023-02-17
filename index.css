@@ -8,8 +8,7 @@ body {
   color: #fefefe;
   display: flex;
   /* font-family: "Roboto", sans-serif; */
-  font-family: font-family: 'Roboto', sans-serif;
-font-family: 'Share Tech Mono', monospace;;
+  font-family: 'Share Tech Mono', monospace;;
   margin: 0;
 }
 
@@ -30,6 +29,12 @@ nav {
   background-color: #184c6d;
   width: 90%;
   z-index: 3;
+
+  /* Nav bottom border */
+  border-width: 0px;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #da9559, #753f10) 1;
 }
 
 .name-logo-div {
@@ -49,7 +54,7 @@ nav {
 /* HERO */
 
 .hero {
-  margin-top: 5em;
+  margin-top: 6em;
 }
 
 .main-header-text {
@@ -69,7 +74,7 @@ nav {
 
 .contact-me-btn-container {
   text-align: left;
-    margin-top: 1em;
+    margin-top: 2em;
 
 }
 
@@ -97,7 +102,7 @@ nav {
 
 .currently-text {
   background-color: #133d57;
-  border: solid 1px #da9559;
+  border: solid 3px #da9559;
   padding: 0.5em;
   width: 40%;
   margin-top: -6em;
@@ -137,6 +142,11 @@ nav {
 
 .projects article, .skills article {
   margin-bottom: .75em;
+}
+
+.skills li {
+  list-style: none;
+  display: inline-block;
 }
 
 /* about me */
